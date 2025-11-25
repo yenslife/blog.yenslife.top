@@ -1,6 +1,6 @@
 +++
 date = '2025-11-05T16:09:25+08:00'
-draft = false
+draft = true
 title = '讓 gpt-4o-mini 變成你的女僕：用 JSONL 微調 gpt-4o-mini，並在 Open WebUI 中使用！(包含 Open WebUI Pipeline 教學)'
 +++
 

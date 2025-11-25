@@ -1,7 +1,7 @@
 
 +++
 date = '2025-11-05T16:09:25+08:00'
-draft = false
+draft = true
 title = 'Turn gpt-4o-mini into Your Maid: Fine-Tune gpt-4o-mini with JSONL and Use It in Open WebUI! (Includes Open WebUI Pipeline Tutorial)'
 +++
 
