@@ -26,6 +26,11 @@ mainSections = [ "post" ]
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
+  [markup.highlight]
+    style = "default"
+    lineNos = false
+    lineNumbersInTable = false
+    noClasses = false # 不能設為 false 才能改一些 code block 的樣式
 
 [params.sidebar]
 compact = false

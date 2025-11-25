@@ -1,56 +1,54 @@
 :root {
     --body-background: #f3faffff;
-    --body-text-color: #333333; /* 客製化文字顏色 */
+    --body-text-color: #333333;
+    --code-background: #fafafa;
+    --code-color: #000000;
+    --code-keyword: #0000ff;
+    --code-string: #a31515;
+    --code-number: #098658;
+    --code-function: #795e26;
+    --code-comment: #008000;
+    --code-error: #ff0000;
 }
 
 :root[data-scheme="dark"] {
     --body-background: #272829;
-    --body-text-color: #e0e0e0; /* 深色模式文字顏色 */
+    --body-text-color: #e0e0e0;
+    --code-background: #2d2d2d;
+    --code-color: #f8f8f2;
+    --code-keyword: #66d9ef;
+    --code-string: #e6db74;
+    --code-number: #ae81ff;
+    --code-function: #a6e22e;
+    --code-comment: #75715e;
+    --code-error: #f92672;
 }
 
-/* 文章框框樣式 - 改為粗線條、方方正正 */
+/* 文章框框樣式 - 方方正正 */
 .article-list article,
 .article-page .main-article,
 .widget--toc,
 .article-list--compact,
 .article-list--tile article,
-.section-card {
+.section-card,
+.related-content article {
     border-radius: 0 !important;
     box-shadow: none !important;
     border: 1px solid #000 !important;
 }
 
-/* 文章內容區域 */
-.article-page .main-article {
-    border: 1px solid #000 !important;
-}
-
-/* 目錄區塊 */
-.widget--toc {
-    border: 1px solid #000 !important;
-}
-
-/* 深色模式下的邊框顏色 */
+/* 深色模式邊框顏色 */
 [data-scheme="dark"] .article-list article,
 [data-scheme="dark"] .article-page .main-article,
 [data-scheme="dark"] .widget--toc,
 [data-scheme="dark"] .article-list--compact,
 [data-scheme="dark"] .article-list--tile article,
-[data-scheme="dark"] .section-card {
-    border-color: #fff !important;
-}
-
-/* 相關文章區塊 */
-.related-content article {
-    border-radius: 0 !important;
-    border: 1px solid #000 !important;
-}
-
+[data-scheme="dark"] .section-card,
 [data-scheme="dark"] .related-content article {
     border-color: #fff !important;
 }
 
-/* 搜尋框框樣式 - 改為粗線條、方方正正 */
+/* 搜尋框樣式 */
 .search-form input {
     border-radius: 0 !important;
     box-shadow: none !important;
@@ -65,3 +63,20 @@
     box-shadow: none !important;
     border-color: var(--accent-color) !important;
 }
+
+/* 程式碼區塊顏色 */
+.highlight,
+pre,
+code,
+.chroma {
+    background-color: var(--code-background) !important;
+    color: var(--code-color) !important;
+}
+
+/* 程式碼語法高亮顏色 */
+.chroma .k { color: var(--code-keyword) !important; }
+.chroma .s { color: var(--code-string) !important; }
+.chroma .m { color: var(--code-number) !important; }
+.chroma .nf { color: var(--code-function) !important; }
+.chroma .c { color: var(--code-comment) !important; }
+.chroma .err { color: var(--code-error) !important; }
