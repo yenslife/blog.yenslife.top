@@ -62,3 +62,22 @@ readingTime = true
 [params.footer]
 since = 2025
 # customText = "新網站"
+
+# 留言
+[params.comments]
+enabled = true
+provider = "giscus"
+
+[params.comments.giscus]
+repo = "yenslife/blog.yenslife.top"
+repoID = ""
+category = ""
+categoryID = ""
+mapping = ""
+strict = true
+lightTheme = ""
+darkTheme = ""
+reactionsEnabled = 1
+emitMetadata = 0
+inputPosition = ""
+lang = ""
