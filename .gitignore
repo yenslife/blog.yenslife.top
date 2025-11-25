@@ -1,0 +1,26 @@
+# Hugo build output
+public/
+
+# Hugo resource cache
+resources/_gen/
+
+# Build lock file
+hugo_build.lock
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Node (if used)
+node_modules/
+npm-debug.log
+yarn-error.log
+pnpm-lock.yaml
+
+# Editor configs
+.vscode/
+.idea/
+
+# Hugo environment
+.hugo_build.lock
+
