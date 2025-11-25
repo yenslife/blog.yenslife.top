@@ -68,16 +68,17 @@ since = 2025
 enabled = true
 provider = "giscus"
 
+# 記得從 giscus.app 取得實際值
 [params.comments.giscus]
 repo = "yenslife/blog.yenslife.top"
-repoID = ""
-category = ""
-categoryID = ""
-mapping = ""
+repoID = "R_kgDOQcjOkQ"  
+# category = "General"     
+# categoryID = "DIC_xxxx"  
+mapping = "pathname"     
 strict = true
-lightTheme = ""
-darkTheme = ""
+lightTheme = "light"
+darkTheme = "dark"
 reactionsEnabled = 1
 emitMetadata = 0
-inputPosition = ""
-lang = ""
+inputPosition = "bottom" # 留言框位置
+lang = "zh-TW"           # 語言設定
