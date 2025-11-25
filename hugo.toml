@@ -72,8 +72,8 @@ provider = "giscus"
 [params.comments.giscus]
 repo = "yenslife/blog.yenslife.top"
 repoID = "R_kgDOQcjOkQ"  
-# category = "General"     
-# categoryID = "DIC_xxxx"  
+category = "General"     
+categoryID = "DIC_kwDOQcjOkc4CzB4C"  
 mapping = "pathname"     
 strict = true
 lightTheme = "light"
