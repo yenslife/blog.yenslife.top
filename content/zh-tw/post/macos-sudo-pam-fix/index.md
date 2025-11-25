@@ -1,6 +1,6 @@
 +++
 date = '2025-11-26T02:04:48+08:00'
-draft = true
+draft = false
 title = '在 MacOS 中如果意外把 /etc/pam.d/sudo 的東西改壞怎麼辦？(在 MacOS 中使用指紋來驗證 sudo)'
 
 tags = [ 'sudo', 'Mac', '指紋' ]
