@@ -12,6 +12,7 @@ menu:
             icon: user
 license: false
 readingTime: false
+comments: false
 ---
 
 
