@@ -29,7 +29,6 @@ avatar = { enabled = true, src = "img/avatar.jpg", local = true}
 [params.widgets]
 [[params.widgets.homepage]]
 type = "search"
-# [params.widgets.homepage.params]
 [[params.widgets.homepage]]
 type = "tag-cloud"
 [[params.widgets.homepage]]
@@ -44,3 +43,6 @@ type = "categories"
 [[params.widgets.page]]
 type = "tag-cloud"
 
+[params.article]
+license = { enabled = true }
+readingTime = true
