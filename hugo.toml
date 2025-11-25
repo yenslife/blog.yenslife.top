@@ -7,19 +7,25 @@ theme = 'hugo-theme-stack'
    [languages.en]
      contentDir = 'content/en'
      languageName = 'English'
-     weight = 10
+     weight = 20
      title = "Yenslife Blog"
      # subtitle = "This is a subtitle"
    [languages.zh-tw]
      contentDir = 'content/zh-tw'
      languageName = '台灣正體'
-     weight = 20
+     weight = 10
      title = "海狸大師部落格"
      # subtitle = ""
 
 [params]
 description = "測試用的 description"
 mainSections = [ "post" ]
+
+# 允許在 Markdown 中使用 HTML
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
 
 [params.sidebar]
 compact = false

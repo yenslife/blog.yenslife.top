@@ -13,7 +13,8 @@
 .article-page .main-article,
 .widget--toc,
 .article-list--compact,
-.article-list--tile article {
+.article-list--tile article,
+.section-card {
     border-radius: 0 !important;
     box-shadow: none !important;
     border: 1px solid #000 !important;
@@ -34,7 +35,8 @@
 [data-scheme="dark"] .article-page .main-article,
 [data-scheme="dark"] .widget--toc,
 [data-scheme="dark"] .article-list--compact,
-[data-scheme="dark"] .article-list--tile article {
+[data-scheme="dark"] .article-list--tile article,
+[data-scheme="dark"] .section-card {
     border-color: #fff !important;
 }
 
