@@ -1,9 +1,11 @@
 :root {
     --body-background: #f3faffff;
+    --body-text-color: #333333; /* 客製化文字顏色 */
 }
 
 :root[data-scheme="dark"] {
     --body-background: #272829;
+    --body-text-color: #e0e0e0; /* 深色模式文字顏色 */
 }
 
 /* 文章框框樣式 - 改為粗線條、方方正正 */
