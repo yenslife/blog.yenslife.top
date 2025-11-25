@@ -1,9 +1,9 @@
 :root {
-    --body-background: #e4f3ff;
+    --body-background: #f3faffff;
 }
 
 :root[data-scheme="dark"] {
-    --body-background: #040913;
+    --body-background: #272829;
 }
 
 /* 文章框框樣式 - 改為粗線條、方方正正 */
@@ -14,17 +14,17 @@
 .article-list--tile article {
     border-radius: 0 !important;
     box-shadow: none !important;
-    border: 3px solid #000 !important;
+    border: 1px solid #000 !important;
 }
 
 /* 文章內容區域 */
 .article-page .main-article {
-    border: 3px solid #000 !important;
+    border: 1px solid #000 !important;
 }
 
 /* 目錄區塊 */
 .widget--toc {
-    border: 3px solid #000 !important;
+    border: 1px solid #000 !important;
 }
 
 /* 深色模式下的邊框顏色 */
@@ -39,7 +39,7 @@
 /* 相關文章區塊 */
 .related-content article {
     border-radius: 0 !important;
-    border: 2px solid #000 !important;
+    border: 1px solid #000 !important;
 }
 
 [data-scheme="dark"] .related-content article {
@@ -50,7 +50,7 @@
 .search-form input {
     border-radius: 0 !important;
     box-shadow: none !important;
-    border: 3px solid #000 !important;
+    border: 1px solid #000 !important;
 }
 
 [data-scheme="dark"] .search-form input {
