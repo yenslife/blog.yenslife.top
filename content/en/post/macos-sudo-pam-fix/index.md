@@ -4,7 +4,7 @@ draft = false
 title = 'How to Fix /etc/pam.d/sudo if You Accidentally Break It in macOS (Using Fingerprint to Authenticate sudo in macOS)'
 
 tags = [ 'sudo', 'Mac', 'fingerprint' ]
-cover = 'https://i.meee.com.tw/CzGJ70z.png'
+image = 'https://i.meee.com.tw/CzGJ70z.png'
 categories = [ 'Mac' ]
 keywords = [ 'sudo', 'Mac', 'fingerprint', 'pam', 'pam_tid' ]
 description = 'How to fix /etc/pam.d/sudo if you accidentally break it in macOS (Problems encountered when using fingerprint to authenticate sudo in macOS)'

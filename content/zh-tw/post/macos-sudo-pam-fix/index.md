@@ -4,7 +4,7 @@ draft = false
 title = '在 MacOS 中如果意外把 /etc/pam.d/sudo 的東西改壞怎麼辦？(在 MacOS 中使用指紋來驗證 sudo)'
 
 tags = [ 'sudo', 'Mac', '指紋' ]
-cover = 'https://i.meee.com.tw/CzGJ70z.png'
+image = 'https://i.meee.com.tw/CzGJ70z.png'
 categories = [ 'Mac' ]
 keywords = [ 'sudo', 'Mac', '指紋', 'pam', 'pam_tid' ]
 description = '在 MacOS 中如果意外把 /etc/pam.d/sudo 的東西改壞怎麼辦？(在 MacOS 中使用指紋來驗證 sudo 遇到的問題)'
