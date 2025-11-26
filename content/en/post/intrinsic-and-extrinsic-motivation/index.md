@@ -7,7 +7,10 @@ categories = ['video-reflection']
 keywords = ['intrinsic-motivation', 'extrinsic-motivation', 'motivation', 'psychology', 'course-reflection', 'insights', 'old-blog-post']
 description = 'This article is a reflection from my university general education course, sharing my understanding of intrinsic and extrinsic motivation, along with my personal motivation experiences.'
 image = 'https://i.imgur.com/p28siwO.png'
+toc = true
 comments = true
+author = '海狸大師'
+authorLink = 'https://github.com/yenslife'
 +++
 
 (Old blog post, written: 2023-11-23)
@@ -16,7 +19,7 @@ This was an assignment for a general education course. After watching this TED t
 
 Source: [https://youtu.be/rrkrvAUbU9Y?si=44CFkKhIQvWVAjbq](https://youtu.be/rrkrvAUbU9Y?si=0ppV40ITE7iARwBJ), NCKU General Education Psychology Slides
 
-# The Candle Problem
+## The Candle Problem
 Experimenters gave participants some nails, matches, and asked them to attach a candle to the wall, but the wax couldn't drip onto the wall. Many people couldn't see the solution at first, trying to nail the candle to the wall or stick it with wax, but the solution was to use the nail box as a platform.
 
 The problem setup is shown below:
@@ -29,7 +32,7 @@ The fastest, most direct, but not-so-intuitive solution:
 *Actually, just use the nail box to complete the task.*
 ![](https://i.imgur.com/OukXBqY.png)
 
-# Extrinsic Motivation
+## Extrinsic Motivation
 Motivation driven by the external world that makes people do certain things, such as rewards, punishments, etc. The video mentions that extrinsic rewards worked for 20th-century jobs, but in the 21st century, this mechanical, reward-and-punishment approach is not only ineffective but also harmful. Glucksberg's experiments proved this. This worked for several years and is one of the most robust research findings. There are some exceptions, like simple problems where participants are given clear actions plus rewards, which can indeed improve performance.
 
 Later, he conducted another experiment using a simple version of the candle problem, showing that if-then rewards are very effective for this type of work with simple rules and clear goals. Because this makes people's thinking more direct and narrower. But most problems in life are like the original candle problem, requiring creative, conceptual work. Right-brain tasks cannot use extrinsic rewards because they don't have clear, simple rules and solutions.
@@ -39,7 +42,7 @@ Later, he conducted another experiment using a simple version of the candle prob
 
 	💡 If-then rewards often destroy creativity; they only work in a much narrower environment than we imagine.
 
-# Intrinsic Motivation
+## Intrinsic Motivation
 Motivation driven by one's own interests, passion, and ideals, completely spontaneous.
 
 The video also mentions that new business operation models should revolve around:
@@ -52,10 +55,10 @@ Compared to extrinsic rewards, this approach can make employees perform better. 
 
 Another example is Microsoft's Encarta encyclopedia. They spent a large amount of money hiring professionals to complete this project, hoping to accomplish this feat within the scheduled time and budget. However, a few years later, another encyclopedia was born, created by people for interest, with no one receiving money, and that encyclopedia was called Wikipedia.
 
-### ROWE (Result Only Work Environment)
+## ROWE (Result Only Work Environment)
 Created by two American consultants. Under this system, employees have no rigid schedule; they are only responsible for producing results. Sometimes they don't even need to go to the office or meetings. It's somewhat like the "responsibility system" we're familiar with, but even more flexible. The implementation results were: almost all companies' productivity increased, engagement increased, satisfaction increased, and turnover decreased. It enhanced autonomy, mastery, and purpose.
 
-# My Motivation Sharing
+## My Motivation Sharing
 
 ### Motivation for Choosing NCKU Computer Science
 Actually, I think my initial motivation was a combination of extrinsic and intrinsic motivation. On one hand, I really hoped my future work could have flexible hours and high salary, and choosing computer science could also meet societal expectations; on the other hand, I was genuinely interested in computer-related knowledge, though I had less exposure to it in high school.
