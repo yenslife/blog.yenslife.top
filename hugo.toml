@@ -42,9 +42,14 @@ avatar = { enabled = true, src = "img/avatar.jpg", local = true}
 [[params.widgets.homepage]]
 type = "search"
 [[params.widgets.homepage]]
-type = "tag-cloud"
-[[params.widgets.homepage]]
 type = "categories"
+[params.widgets.homepage.params]
+limit = 20
+[[params.widgets.homepage]]
+type = "tag-cloud"
+[params.widgets.homepage.params]
+limit = 50
+
 
 [[params.widgets.page]]
 type = "search"
