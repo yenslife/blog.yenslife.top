@@ -1,0 +1,7 @@
+Sitemap: https://blog.yenslife.top/sitemap.xml
+Sitemap: https://blog.yenslife.top/sitemap
+Sitemap: https://blog.yenslife.top/en/sitemap.xml
+Sitemap: https://blog.yenslife.top/zh-tw/sitemap.xml
+
+User-agent: *
+Disallow:
