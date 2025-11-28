@@ -19,7 +19,7 @@ DefaultContentLanguage = 'zh-tw'
      # subtitle = ""
 
 [params]
-description = "測試用的 description"
+description = "海狸大師部落格，分享學習心得"
 mainSections = [ "post" ]
 
 # 允許在 Markdown 中使用 HTML
