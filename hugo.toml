@@ -1,5 +1,5 @@
 baseURL = 'https://blog.yenslife.top/'
-languageCode = 'en-us'
+languageCode = 'zh-tw'
 title = '海狸大師部落格'
 theme = 'hugo-theme-stack'
 DefaultContentLanguage = 'zh-tw'
@@ -21,6 +21,30 @@ DefaultContentLanguage = 'zh-tw'
 [params]
 description = "海狸大師部落格，分享學習心得"
 mainSections = [ "post" ]
+
+[menu]
+[[menu.main]]
+[[menu.social]]
+    identifier = "github"
+    name = "GitHub"
+    url = "https://github.com/yenslife"
+    [menu.social.params]
+        icon = "brand-github"
+
+[[menu.social]]
+    identifier = "linkedin"
+    name = "LinkedIn"
+    url = "https://linkedin.com/in/yenslife"
+    [menu.social.params]
+        icon = "brand-linkedin"
+
+[[menu.social]]
+    identifier = "youtube"
+    name = "YouTube"
+    url = "https://youtube.com/@yen_s_life"
+    [menu.social.params]
+        icon = "brand-youtube"
+
 
 # 允許在 Markdown 中使用 HTML
 [markup]
