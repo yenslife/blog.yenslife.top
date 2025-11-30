@@ -15,7 +15,7 @@ readingTime: false
 comments: false
 ---
 
-
+## 📋 個人履歷
 
 歡迎來到我的網站！這邊主要會分享我學習時遇到的問題與心得，對生活與一些作品的想法～
 
@@ -25,4 +25,13 @@ comments: false
 
 若發現內容有誤，歡迎透過以下 E-mail 聯絡我。
 
-77geo5rge6@gmail.com
+<p align="center">
+<strong><a href="mailto:77geo5rge6@gmail.com">77geo5rge6@gmail.com</a></strong>
+</p>
+
+
+更多詳細的個人資歷、作品集與專業經驗，歡迎參觀我的個人 Portfolio 網站：
+
+<p align="center">
+  <strong><a href="https://yenslife.top" target="_blank">yenslife.top</a></strong>
+</p>
