@@ -1,6 +1,6 @@
 baseURL = 'https://blog.yenslife.top/' # 記得在 GitHub Pages 上設定 enforce https
 languageCode = 'zh-tw'
-title = '海狸大師部落格'
+title = '海狸大師的部落格'
 theme = 'hugo-theme-stack'
 DefaultContentLanguage = 'zh-tw'
 
@@ -9,17 +9,17 @@ DefaultContentLanguage = 'zh-tw'
      contentDir = 'content/en'
      languageName = 'English'
      weight = 20
-     title = "Yenslife Blog"
+     title = "Yenslife's Blog"
      # subtitle = "This is a subtitle"
    [languages.zh-tw]
      contentDir = 'content/zh-tw'
      languageName = '台灣正體'
      weight = 10
-     title = "海狸大師部落格"
+     title = "海狸大師的部落格"
      # subtitle = ""
 
 [params]
-description = "海狸大師部落格，分享學習心得"
+description = "海狸大師的部落格，分享學習心得、資安、LLM 等等"
 mainSections = [ "post" ]
 
 [menu]
