@@ -28,7 +28,7 @@ license: false
 
 ### 出版作品
 
-[會 Python 就可以玩生成式 AI 應用？從原理出發 x Python + No-Code 串接 LLM 的 n 個實作，小白也能輕鬆上手！ (iThome鐵人賽系列書)](https://llm-book.yenslife.top/)
+[零基礎玩轉 LLM 應用全攻略：Python × No-Code 實作 AI 開發超簡單](https://llm-book.yenslife.top/)
 
 
 ### 筆記分享區
