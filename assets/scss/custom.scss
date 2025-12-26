@@ -95,4 +95,20 @@ code,
 .article-content {
     font-size: 1.8rem;
     line-height: 2.0;
+    color: var(--body-text-color);
+}
+
+/* 深色模式下文章內容的文字顏色 */
+[data-scheme="dark"] .article-content {
+    color: rgba(255, 255, 255, 0.9);
+}
+
+[data-scheme="dark"] .article-content h1,
+[data-scheme="dark"] .article-content h2,
+[data-scheme="dark"] .article-content h3,
+[data-scheme="dark"] .article-content h4,
+[data-scheme="dark"] .article-content h5,
+[data-scheme="dark"] .article-content h6,
+[data-scheme="dark"] .article-content p {
+    color: rgba(255, 255, 255, 0.9);
 }

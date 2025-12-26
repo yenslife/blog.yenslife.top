@@ -30,7 +30,7 @@ comments: false
 </p>
 
 
-更多詳細的個人資歷、作品集與專業經驗，歡迎參觀我的個人 Portfolio 網站：
+更多詳細的個人資歷、作品集與專業經驗，歡迎參觀我的個人網站：
 
 <p align="center">
   <strong><a href="https://yenslife.top" target="_blank">yenslife.top</a></strong>

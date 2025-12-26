@@ -1,0 +1,30 @@
+{{ define "main" }}
+    {{ $pages := where .Site.RegularPages "Type" "in" .Site.Params.mainSections }}
+    {{ $notHidden := where .Site.RegularPages "Params.hidden" "!=" true }}
+    {{ $filtered := ($pages | intersect $notHidden) }}
+    
+    <!-- 首頁置頂文章 -->
+    {{ $introPage := .Site.GetPage "page/intro" }}
+    {{ if $introPage }}
+    <section class="article-list">
+        <article class="main-article">
+            {{ partial "article/components/content" $introPage }}
+        </article>
+    </section>
+    {{ end }}
+    
+    <!-- 其他文章列表 -->
+    {{ $pag := .Paginate ($filtered) }}
+    <section class="article-list">
+        {{ range $index, $element := $pag.Pages }}
+            {{ partial "article-list/default" . }}
+        {{ end }}
+    </section>
+
+    {{- partial "pagination.html" . -}}
+    {{- partial "footer/footer" . -}}
+{{ end }}
+
+{{ define "right-sidebar" }}
+    {{ partial "sidebar/right.html" (dict "Context" . "Scope" "homepage") }}
+{{ end }}
