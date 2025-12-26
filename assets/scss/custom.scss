@@ -78,3 +78,9 @@ code,
 .chroma .nf { color: var(--code-function) !important; }
 .chroma .c { color: var(--code-comment) !important; }
 .chroma .err { color: var(--code-error) !important; }
+
+/* 文章內容字體大小 */
+.article-content {
+    font-size: 1.8rem;
+    line-height: 2.0;
+}
