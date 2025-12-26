@@ -22,6 +22,13 @@ mainSections = [ "post" ]
 
 [menu]
 [[menu.main]]
+    identifier = "home"
+    name = "首頁"
+    url = "/"
+    weight = -100
+    [menu.main.params]
+        icon = "home"
+
 [[menu.social]]
     identifier = "github"
     name = "GitHub"
@@ -42,6 +49,13 @@ mainSections = [ "post" ]
     url = "https://youtube.com/@yen_s_life"
     [menu.social.params]
         icon = "brand-youtube"
+
+[[menu.social]]
+    identifier = "rss"
+    name = "RSS"
+    url = "/index.xml"
+    [menu.social.params]
+        icon = "rss"
 
 
 # 允許在 Markdown 中使用 HTML
