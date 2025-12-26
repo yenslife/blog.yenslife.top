@@ -24,7 +24,7 @@
     --code-error: #f92672;
 }
 
-/* 文章框框樣式 - 方方正正 */
+/* 文章框框樣式 - 圓角設計 */
 .article-list article,
 .article-page .main-article,
 .widget--toc,
@@ -32,8 +32,8 @@
 .article-list--tile article,
 .section-card,
 .related-content article {
-    border-radius: 0 !important;
-    box-shadow: none !important;
+    border-radius: 12px !important;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1) !important;
     border: 1px solid #000 !important;
 }
 
@@ -44,9 +44,7 @@
 [data-scheme="dark"] .article-list--compact,
 [data-scheme="dark"] .article-list--tile article,
 [data-scheme="dark"] .section-card,
-[data-scheme="dark"] .related-content article {
-    border-color: #fff !important;
-}
+[data-scheme="dark"] .related-content article
 
 /* 搜尋框樣式 */
 .search-form input {

@@ -10,13 +10,11 @@ DefaultContentLanguage = 'zh-tw'
      languageName = 'English'
      weight = 20
      title = "Yenslife's Blog"
-     # subtitle = "This is a subtitle"
    [languages.zh-tw]
      contentDir = 'content/zh-tw'
      languageName = '台灣正體'
      weight = 10
      title = "海狸大師的部落格"
-     # subtitle = ""
 
 [params]
 description = "海狸大師的部落格，分享學習心得、資安、LLM 等等"
@@ -61,6 +59,7 @@ mainSections = [ "post" ]
 compact = false
 emoji = "🦫"
 avatar = { enabled = true, src = "img/avatar.jpg", local = true}
+subtitle = "太多東西學不完，就姑且放一些碎片在這邊"
 
 [params.widgets]
 [[params.widgets.homepage]]
