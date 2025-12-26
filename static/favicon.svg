@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <style>
+      @keyframes bounce {
+        0%, 100% { transform: translateY(0); }
+        50% { transform: translateY(-5px); }
+      }
+      .beaver {
+        animation: bounce 2s infinite;
+        transform-origin: 50px 50px;
+      }
+    </style>
+  </defs>
+  <text class="beaver" x="50" y="70" font-size="95" text-anchor="middle" dominant-baseline="middle">🦫</text>
+</svg>

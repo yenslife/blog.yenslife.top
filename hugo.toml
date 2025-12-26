@@ -19,6 +19,7 @@ DefaultContentLanguage = 'zh-tw'
 [params]
 description = "海狸大師部落格，分享學習心得、資安、LLM 等等"
 mainSections = [ "post" ]
+favicon = "favicon.svg"
 
 [menu]
 [[menu.main]]
