@@ -44,17 +44,19 @@
 [data-scheme="dark"] .article-list--compact,
 [data-scheme="dark"] .article-list--tile article,
 [data-scheme="dark"] .section-card,
-[data-scheme="dark"] .related-content article
+[data-scheme="dark"] .related-content article {
+    border-color: #555 !important;
+}
 
 /* 搜尋框樣式 */
 .search-form input {
-    border-radius: 0 !important;
+    border-radius: 12px !important;
     box-shadow: none !important;
     border: 1px solid #000 !important;
 }
 
 [data-scheme="dark"] .search-form input {
-    border-color: #fff !important;
+    border-color: #555 !important;
 }
 
 .search-form input:focus {
@@ -78,6 +80,16 @@ code,
 .chroma .nf { color: var(--code-function) !important; }
 .chroma .c { color: var(--code-comment) !important; }
 .chroma .err { color: var(--code-error) !important; }
+
+/* 標籤雲和分類樣式 */
+.tagCloud-tags a {
+    border-radius: 12px !important;
+    border: 1px solid #000 !important;
+}
+
+[data-scheme="dark"] .tagCloud-tags a {
+    border-color: #555 !important;
+}
 
 /* 文章內容字體大小 */
 .article-content {
