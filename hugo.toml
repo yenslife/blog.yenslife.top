@@ -101,6 +101,7 @@ type = "tag-cloud"
 [params.article]
 license = { enabled = true }
 readingTime = true
+math = true
 
 [params.footer]
 since = 2025
