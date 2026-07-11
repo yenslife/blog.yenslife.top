@@ -26,7 +26,7 @@ comments: false
 若發現內容有誤，歡迎透過以下 E-mail 聯絡我。
 
 <p align="center">
-<strong><a href="mailto:77geo5rge6@gmail.com">77geo5rge6@gmail.com</a></strong>
+<strong><a href="mailto:yenslife.pan@gmail.com">yenslife.pan@gmail.com</a></strong>
 </p>
 
 

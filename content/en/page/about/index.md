@@ -25,4 +25,4 @@ Currently, this website is positioned as half technical articles and half person
 
 If you find any errors in the content, please feel free to contact me via the email below.
 
-77geo5rge6@gmail.com
+yenslife.pan@gmail.com
