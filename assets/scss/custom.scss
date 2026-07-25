@@ -165,3 +165,79 @@ code,
 [data-scheme="dark"] .article-content p {
     color: rgba(255, 255, 255, 0.9);
 }
+
+/* 卡片懸浮：微微上浮 + 陰影加深 */
+.article-list article,
+.article-list--compact,
+.article-list--tile article,
+.related-content article,
+.widget--toc,
+.section-card {
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.article-list article:hover,
+.article-list--compact:hover,
+.article-list--tile article:hover,
+.related-content article:hover,
+.widget--toc:hover,
+.section-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12) !important;
+}
+
+[data-scheme="dark"] .article-list article:hover,
+[data-scheme="dark"] .article-list--compact:hover,
+[data-scheme="dark"] .article-list--tile article:hover,
+[data-scheme="dark"] .related-content article:hover,
+[data-scheme="dark"] .widget--toc:hover,
+[data-scheme="dark"] .section-card:hover {
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.35) !important;
+}
+
+/* 縮圖懸浮放大 */
+.article-list article .article-image,
+.article-list--tile article .article-image,
+.related-content article .article-image {
+    overflow: hidden;
+}
+
+.article-list article .article-image img,
+.article-list--tile article .article-image img,
+.related-content article .article-image img {
+    transition: transform 0.4s ease;
+}
+
+.article-list article:hover .article-image img,
+.article-list--tile article:hover .article-image img,
+.related-content article:hover .article-image img {
+    transform: scale(1.05);
+}
+
+/* 反白選取顏色 */
+::selection {
+    background-color: rgba(52, 73, 94, 0.2);
+}
+
+[data-scheme="dark"] ::selection {
+    background-color: rgba(236, 240, 241, 0.25);
+}
+
+/* 捲軸樣式 */
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--accent-color);
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--accent-color-darker);
+}
