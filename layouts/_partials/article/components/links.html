@@ -1,0 +1,99 @@
+<!-- 支援兩組連結：links（個人）與 friendLinks（友情連結） -->
+{{ $page := . }}
+{{ $lang := .Site.Language.Lang }}
+
+{{ with .Params.links }}
+    {{ if $page.Params.friendLinks }}
+        <h2 class="section-title">
+            {{ if eq $lang "zh-hant-tw" }}我的連結{{ else }}My Links{{ end }}
+        </h2>
+    {{ end }}
+
+    <div class="article-list--compact links">
+        {{ range . }}
+            <article>
+                <a href="{{ .website }}" target="_blank" rel="noopener">
+                    <div class="article-details">
+                        <h2 class="article-title">
+                            {{- .title -}}
+                        </h2>
+                        <footer class="article-meta">
+                            {{ with .description }}
+                                {{ . }}
+                            {{ else }}
+                                {{ .website }}
+                            {{ end }}
+                        </footer>
+                    </div>
+
+                    {{- $linkTitle := .title -}}
+                    {{- $image := partial "helper/image" (dict "Image" .image "Resources" $.Resources "Context" $page) -}}
+                    {{- with $image -}}
+                        <div class="article-image">
+                            {{ partial "helper/thumbnail-image" (dict
+                                "Resource" .Resource
+                                "Width" 60
+                                "Height" 60
+                                "Resize" $.Site.Params.ImageProcessing.Thumbnail.Enabled
+                                "Attributes" (dict
+                                    "src" .Permalink
+                                    "alt" $linkTitle
+                                    "loading" "lazy"
+                                    "width" .Width
+                                    "height" .Height
+                                )
+                            ) }}
+                        </div>
+                    {{ end }}
+                </a>
+            </article>
+        {{ end }}
+    </div>
+{{ end }}
+
+{{ with .Params.friendLinks }}
+    <h2 class="section-title">
+        {{ if eq $lang "zh-hant-tw" }}友情連結{{ else }}Friends{{ end }}
+    </h2>
+
+    <div class="article-list--compact links">
+        {{ range . }}
+            <article>
+                <a href="{{ .website }}" target="_blank" rel="noopener">
+                    <div class="article-details">
+                        <h2 class="article-title">
+                            {{- .title -}}
+                        </h2>
+                        <footer class="article-meta">
+                            {{ with .description }}
+                                {{ . }}
+                            {{ else }}
+                                {{ .website }}
+                            {{ end }}
+                        </footer>
+                    </div>
+
+                    {{- $linkTitle := .title -}}
+                    {{- $image := partial "helper/image" (dict "Image" .image "Resources" $.Resources "Context" $page) -}}
+                    {{- with $image -}}
+                        <div class="article-image">
+                            {{ partial "helper/thumbnail-image" (dict
+                                "Resource" .Resource
+                                "Width" 60
+                                "Height" 60
+                                "Resize" $.Site.Params.ImageProcessing.Thumbnail.Enabled
+                                "Attributes" (dict
+                                    "src" .Permalink
+                                    "alt" $linkTitle
+                                    "loading" "lazy"
+                                    "width" .Width
+                                    "height" .Height
+                                )
+                            ) }}
+                        </div>
+                    {{ end }}
+                </a>
+            </article>
+        {{ end }}
+    </div>
+{{ end }}

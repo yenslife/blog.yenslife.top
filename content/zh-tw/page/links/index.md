@@ -13,6 +13,11 @@ links:
     # description: 我的 YouTube Profile
     website: https://www.youtube.com/@yen_s_life
     image: youtube.png
+friendLinks:
+  - title: ncchen99
+    description: 好朋朋
+    website: https://ncchen99.github.io/
+    image: https://github.com/ncchen99.png
 menu:
     main: 
         weight: -50
