@@ -1,18 +1,21 @@
 baseURL = 'https://blog.yenslife.top/' # 記得在 GitHub Pages 上設定 enforce https
-languageCode = 'zh-tw'
+locale = 'zh-Hant-TW'
 title = '海狸大師部落格'
 theme = 'hugo-theme-stack'
-DefaultContentLanguage = 'zh-tw'
+DefaultContentLanguage = 'zh-hant-tw'
+timeout = '5m'
 
 [languages]
    [languages.en]
      contentDir = 'content/en'
-     languageName = 'English'
+     label = 'English'
+     locale = 'en-US'
      weight = 20
      title = "Yenslife's Blog"
-   [languages.zh-tw]
+   [languages.zh-hant-tw]
      contentDir = 'content/zh-tw'
-     languageName = '台灣正體'
+     label = '台灣正體'
+     locale = 'zh-Hant-TW'
      weight = 10
      title = "海狸大師部落格"
 
@@ -73,7 +76,7 @@ favicon = "favicon.svg"
 [params.sidebar]
 compact = false
 emoji = "🦫"
-avatar = { enabled = true, src = "img/avatar.jpg", local = true}
+avatar = "img/avatar.jpg"
 subtitle = "太多東西學不完，就姑且放一些碎片在這邊"
 
 [params.widgets]

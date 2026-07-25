@@ -16,7 +16,7 @@ tags = ['測試', '圖片測試']
 - 本地照片測試 (要放在同一個路徑 `content/[語言]/post/[文章名稱]/xxx.jpg`)
 - 文章的話要放在 `content/[語言]/post/[文章名稱]/index.md`
 
-![大港方形照片](大港方形照.jpg)
+![大港方形照片](大港方形照.webp)
 youtube 影片嵌入測試
 
 {{< youtube x7v6SNIgJpE >}}
