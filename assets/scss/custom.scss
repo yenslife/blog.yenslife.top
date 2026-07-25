@@ -241,3 +241,25 @@ code,
 ::-webkit-scrollbar-thumb:hover {
     background: var(--accent-color-darker);
 }
+
+/* 外部連結小箭頭 */
+.article-content a[rel*="noopener"]::after,
+.article-content a[target="_blank"]::after {
+    content: "↗";
+    font-size: 0.75em;
+    margin-left: 0.15em;
+    display: inline-block;
+    color: var(--accent-color-darker);
+    text-decoration: none;
+}
+
+/* 404 頁面 */
+.not-found-card {
+    text-align: center;
+}
+
+.not-found-emoji {
+    font-size: 6rem;
+    line-height: 1;
+    margin-bottom: 0.2em;
+}
