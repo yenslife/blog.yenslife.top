@@ -4,7 +4,7 @@ draft = false
 title = 'How to Fix /etc/pam.d/sudo if You Accidentally Break It in macOS (Using Fingerprint to Authenticate sudo in macOS)'
 
 tags = [ 'sudo', 'Mac', 'fingerprint' ]
-image = 'https://i.meee.com.tw/CzGJ70z.png'
+image = 'sudo-screenshot.png'
 categories = [ 'Mac' ]
 keywords = [ 'sudo', 'Mac', 'fingerprint', 'pam', 'pam_tid' ]
 description = 'How to fix /etc/pam.d/sudo if you accidentally break it in macOS (Problems encountered when using fingerprint to authenticate sudo in macOS)'
@@ -55,5 +55,5 @@ $ vi /Volumes/Macintosh\ HD/etc/pam.d/sudo
 
 After fixing and saving, restart your computer and you can use fingerprint to authenticate sudo!! Super cool.
 
-![Screenshot of system asking for fingerprint to authenticate sudo](https://i.meee.com.tw/CzGJ70z.png)
+![Screenshot of system asking for fingerprint to authenticate sudo](sudo-screenshot.png)
 

@@ -8,7 +8,7 @@ links:
   - title: LinkedIn
     # description: 我的 LinkedIn Profile
     website: https://www.linkedin.com/in/yenslife/
-    image: https://www.linkedin.com/favicon.ico
+    image: linkedin.png
   - title: YouTube
     # description: 我的 YouTube Profile
     website: https://www.youtube.com/@yen_s_life
