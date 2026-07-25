@@ -4,7 +4,7 @@ links:
   - title: GitHub
     # description: 我的 GitHub Profile
     website: https://github.com/yenslife
-    image: https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg
+    image: github.svg
   - title: LinkedIn
     # description: 我的 LinkedIn Profile
     website: https://www.linkedin.com/in/yenslife/
@@ -12,7 +12,7 @@ links:
   - title: YouTube
     # description: 我的 YouTube Profile
     website: https://www.youtube.com/@yen_s_life
-    image: https://images.seeklogo.com/logo-png/31/2/youtube-2017-icon-logo-png_seeklogo-316067.png
+    image: youtube.png
 menu:
     main: 
         weight: -50
