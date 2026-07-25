@@ -9,6 +9,9 @@
     --code-function: #795e26;
     --code-comment: #008000;
     --code-error: #ff0000;
+
+    --zh-font-family: "Huninn", "Noto Sans CJK TC", "PingFang TC", "Microsoft JhengHei", sans-serif;
+    --base-font-family: "Lato", var(--zh-font-family), var(--sys-font-family), sans-serif;
 }
 
 :root[data-scheme="dark"] {
