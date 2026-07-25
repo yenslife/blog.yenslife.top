@@ -2,6 +2,7 @@
 date = '2026-07-26T02:03:01+08:00'
 draft = false
 categories = ['Reflection']
+tags = ['platforms', 'AI', 'distance-learning', 'LLM']
 title = 'Do We Really Need More Platforms?'
 +++
 

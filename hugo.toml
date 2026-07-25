@@ -129,3 +129,25 @@ reactionsEnabled = 1
 emitMetadata = 0
 inputPosition = "bottom" # 留言框位置
 lang = "zh-TW"           # 語言設定
+
+# 相關文章推薦設定
+[related]
+    includeNewer = true
+    threshold = 50
+    toLower = false
+
+    [[related.indices]]
+        name = 'tags'
+        weight = 100
+
+    [[related.indices]]
+        name = 'categories'
+        weight = 80
+
+    [[related.indices]]
+        name = 'keywords'
+        weight = 60
+
+    [[related.indices]]
+        name = 'date'
+        weight = 10

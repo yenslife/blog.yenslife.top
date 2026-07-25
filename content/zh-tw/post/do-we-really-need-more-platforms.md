@@ -2,6 +2,7 @@
 date = '2026-07-26T02:03:01+08:00'
 draft = false
 categories = ['心得']
+tags = ['平台', 'AI', '遠距教學', 'LLM']
 title = '我們還需要更多的平台嗎？'
 +++
 
