@@ -1,5 +1,5 @@
 :root {
-    --body-background: #f3faffff;
+    --body-background: #f8faff;
     --body-text-color: #333333;
     --code-background: #fafafa;
     --code-color: #000000;
@@ -27,7 +27,7 @@
     --code-error: #f92672;
 }
 
-/* 文章框框樣式 - 圓角設計 */
+/* 文章框框樣式 - 圓角設計、邊框改柔和 */
 .article-list article,
 .article-page .main-article,
 .widget--toc,
@@ -37,7 +37,7 @@
 .related-content article {
     border-radius: 12px !important;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1) !important;
-    border: 1px solid #000 !important;
+    border: 1px solid rgba(0, 0, 0, 0.1) !important;
 }
 
 /* 深色模式邊框顏色 */
@@ -48,18 +48,18 @@
 [data-scheme="dark"] .article-list--tile article,
 [data-scheme="dark"] .section-card,
 [data-scheme="dark"] .related-content article {
-    border-color: #555 !important;
+    border-color: rgba(255, 255, 255, 0.12) !important;
 }
 
 /* 搜尋框樣式 */
 .search-form input {
     border-radius: 12px !important;
     box-shadow: none !important;
-    border: 1px solid #000 !important;
+    border: 1px solid rgba(0, 0, 0, 0.15) !important;
 }
 
 [data-scheme="dark"] .search-form input {
-    border-color: #555 !important;
+    border-color: rgba(255, 255, 255, 0.12) !important;
 }
 
 .search-form input:focus {
@@ -84,14 +84,28 @@ code,
 .chroma .c { color: var(--code-comment) !important; }
 .chroma .err { color: var(--code-error) !important; }
 
-/* 標籤雲和分類樣式 */
+/* 標籤雲樣式：膠囊形、淺色背景 */
 .tagCloud-tags a {
-    border-radius: 12px !important;
-    border: 1px solid #000 !important;
+    border-radius: 999px !important;
+    border: none !important;
+    background-color: rgba(52, 73, 94, 0.1) !important;
+    color: var(--accent-color-darker) !important;
+    box-shadow: none !important;
+    padding: 6px 16px !important;
+    transition: background-color 0.2s ease;
 }
 
 [data-scheme="dark"] .tagCloud-tags a {
-    border-color: #555 !important;
+    background-color: rgba(255, 255, 255, 0.12) !important;
+    color: rgba(255, 255, 255, 0.9) !important;
+}
+
+.tagCloud-tags a:hover {
+    background-color: rgba(52, 73, 94, 0.18) !important;
+}
+
+[data-scheme="dark"] .tagCloud-tags a:hover {
+    background-color: rgba(255, 255, 255, 0.2) !important;
 }
 
 /* 文章內容字體大小：手機維持 1.8rem，平板/電腦稍微放大 */
@@ -103,6 +117,31 @@ code,
     @media (min-width: 768px) {
         font-size: 2.0rem;
     }
+}
+
+/* 標題層級加強 */
+.article-content h2,
+.article-content h3,
+.article-content h4,
+.article-content h5,
+.article-content h6 {
+    font-weight: 700;
+    margin-top: 2.5em;
+    margin-bottom: 1em;
+}
+
+.article-content h2 { font-size: 2.4rem; }
+.article-content h3 { font-size: 2.0rem; }
+.article-content h4 { font-size: 1.8rem; }
+.article-content h5,
+.article-content h6 { font-size: 1.7rem; }
+
+@media (min-width: 768px) {
+    .article-content h2 { font-size: 2.8rem; }
+    .article-content h3 { font-size: 2.3rem; }
+    .article-content h4 { font-size: 2.0rem; }
+    .article-content h5,
+    .article-content h6 { font-size: 1.8rem; }
 }
 
 /* 引用區塊 (blockquote) 字體效果 */
