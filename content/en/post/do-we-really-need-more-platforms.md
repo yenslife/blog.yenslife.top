@@ -1,12 +1,12 @@
 +++
 date = '2026-07-26T02:03:01+08:00'
-draft = true
+draft = false
 title = 'Do We Really Need More Platforms?'
 +++
 
 # Do We Really Need More Platforms?
 
-(The following story is all typed by a real human, no LLM polishing or rewriting. Some parts are true, some are fake—just take it with a laugh.)
+(The following story was originally written in Chinese and translated into English with the help of AI. Some parts are true, some are fake—just take it with a laugh.)
 
 ## An AI-Powered Teaching Platform
 
