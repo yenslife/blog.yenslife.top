@@ -2,7 +2,7 @@
 title = 'Mac (intel x86), Linux 雙系統、Ubuntu 切割硬碟紀錄'
 date = 2023-02-13T17:57:12+08:00
 draft = false
-tags = ['Ubuntu', 'Linux', 'Partition', 'Disk', '硬碟', 'Mac']
+tags = ['Ubuntu', 'Linux', 'Partition', '硬碟', 'Mac']
 categories = ['Linux']
 keywords = ['Linux', 'Ubuntu', 'Disk', 'partition', '分割', 'mac', '舊網站文章']
 description = '在 MacBook Pro 2013 上安裝 Ubuntu 雙系統，並進行硬碟分割區調整的完整紀錄。包含製作 Live USB、使用 GParted 分割工具，以及解決分割區無法調整大小的問題。'

@@ -2,8 +2,8 @@
 title = 'Intrinsic and Extrinsic Motivation'
 date = 2023-11-23T21:19:59+08:00
 draft = false
-tags = ['psychology', 'course-reflection', 'motivation', 'personal-insights']
-categories = ['video-reflection']
+tags = ['psychology', 'course', 'motivation']
+categories = ['Reflection']
 keywords = ['intrinsic-motivation', 'extrinsic-motivation', 'motivation', 'psychology', 'course-reflection', 'insights', 'old-blog-post']
 description = 'This article is a reflection from my university general education course, sharing my understanding of intrinsic and extrinsic motivation, along with my personal motivation experiences.'
 image = 'https://i.imgur.com/p28siwO.png'

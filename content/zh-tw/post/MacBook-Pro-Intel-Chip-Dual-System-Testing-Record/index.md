@@ -2,7 +2,7 @@
 title = 'Macbook pro (Intel 晶片)雙系統測試紀錄'
 date = 2023-12-20T22:13:46+08:00
 draft = false
-tags = ['重灌', 'Mac', 'Windows', 'Dual System', '雙系統', 'Intel']
+tags = ['重灌', 'Mac', 'Windows', '雙系統', 'Intel']
 categories = ['Mac']
 keywords = ['Mac', 'Windows', 'Dual System', '雙系統', '重灌', '舊網站文章']
 description = '我的舊筆電 MacBook pro late 2013 前陣子被我弄成純 ubuntu，但最近因為作業需求 (微算機要用到 PuTTY)，需要一個 Windows 的環境會比較方便，這篇文章記錄我這幾天的心得。接下來會以步驟以及可能遇到的問題來做說明，希望未來的我不要踩到一樣的坑。'
