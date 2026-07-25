@@ -39,3 +39,68 @@
     }
 })();
 </script>
+
+<script>
+(function() {
+    const btn = document.createElement('button');
+    btn.id = 'scroll-to-top';
+    btn.setAttribute('aria-label', '{{ if eq .Site.Language.Weight 10 }}回到頂部{{ else }}Scroll to top{{ end }}');
+    btn.innerHTML = '↑';
+
+    function onScroll() {
+        if (window.scrollY > 400) {
+            btn.classList.add('visible');
+        } else {
+            btn.classList.remove('visible');
+        }
+    }
+
+    btn.addEventListener('click', function() {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+
+    window.addEventListener('scroll', onScroll, { passive: true });
+
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', function() {
+            document.body.appendChild(btn);
+            onScroll();
+        });
+    } else {
+        document.body.appendChild(btn);
+        onScroll();
+    }
+})();
+</script>
+
+<script>
+(function() {
+    if (!('IntersectionObserver' in window)) return;
+
+    const targets = document.querySelectorAll('.article-list article, .article-list--tile article, .related-content article, .section-card, .widget--toc, .widget');
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('is-visible');
+                observer.unobserve(entry.target);
+            }
+        });
+    }, { threshold: 0.1, rootMargin: '0px 0px -50px 0px' });
+
+    function init() {
+        targets.forEach(el => {
+            const rect = el.getBoundingClientRect();
+            if (rect.top > window.innerHeight) {
+                el.classList.add('reveal');
+                observer.observe(el);
+            }
+        });
+    }
+
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', init);
+    } else {
+        init();
+    }
+})();
+</script>
