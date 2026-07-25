@@ -149,6 +149,24 @@ code,
     font-family: "Iowan Old Style", "Palatino Linotype", "Book Antiqua", Palatino, "Noto Serif CJK TC", var(--zh-font-family), serif;
     font-style: italic;
     letter-spacing: 0.2px;
+    position: relative;
+    isolation: isolate;
+    padding-inline-start: calc(var(--card-padding) + 2em);
+}
+
+.article-content blockquote:not(.alert)::before {
+    content: "“";
+    position: absolute;
+    left: 0.5em;
+    top: 0.2em;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 3em;
+    line-height: 1;
+    color: var(--accent-color);
+    opacity: 0.15;
+    pointer-events: none;
+    z-index: -1;
+    font-style: normal;
 }
 
 /* 深色模式下文章內容的文字顏色 */
@@ -262,4 +280,22 @@ code,
     font-size: 6rem;
     line-height: 1;
     margin-bottom: 0.2em;
+}
+
+/* 頂端閱讀進度條 */
+#reading-progress {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 4px;
+    background: var(--accent-color);
+    box-shadow: 0 0 6px rgba(52, 73, 94, 0.4);
+    z-index: 9999;
+    pointer-events: none;
+    transition: width 0.1s linear;
+}
+
+[data-scheme="dark"] #reading-progress {
+    box-shadow: 0 0 8px rgba(236, 240, 241, 0.5);
 }
