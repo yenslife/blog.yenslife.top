@@ -67,6 +67,12 @@ favicon = "favicon.svg"
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
+    # 讓 $...$ / $$...$$ 內的 LaTeX 原樣交給 KaTeX，避免 \\ 與 \{ 被 Markdown 解析掉
+    [markup.goldmark.extensions.passthrough]
+      enable = true
+      [markup.goldmark.extensions.passthrough.delimiters]
+        block = [['\[', '\]'], ['$$', '$$']]
+        inline = [['\(', '\)'], ['$', '$']]
   [markup.highlight]
     style = "default"
     lineNos = false

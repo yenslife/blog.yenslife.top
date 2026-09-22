@@ -1,0 +1,6 @@
+{{- /* 把 $...$ / $$...$$ 內的 LaTeX 做 HTML escape 後交給 KaTeX auto-render，避免公式裡的 < 被瀏覽器當成標籤 */ -}}
+{{- if eq .Type "block" -}}
+<div class="math math-block">$${{ .Inner }}$$</div>
+{{- else -}}
+<span class="math math-inline">${{ .Inner }}$</span>
+{{- end -}}
